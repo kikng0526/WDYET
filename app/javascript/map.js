@@ -130,9 +130,7 @@ window.initMap = function() {
                 default:
                   result.innerHTML = "もう一度読み込んで下さい。";
                   break;
-              }
-                
-
+              　}
                 for( let i=0; i < num_shop; i++){
                   var shopLat = json.rest[i].latitude;
                   var shopLng = json.rest[i].longitude;
@@ -176,10 +174,8 @@ window.initMap = function() {
         2: "電波状況などで位置情報が取得できませんでした。" ,
         3: "位置情報の取得に時間がかかりタイムアウトしました。" ,
       };
-     //エラーコードに合わせたエラー内容をアラート表示
       alert(errorMessage[error.code]);
     };
-  // Geolocation APIに対応していない
   } else {
     alert("この端末では位置情報が取得できません");
   }
