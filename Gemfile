@@ -60,3 +60,7 @@ gem 'dotenv'
 gem 'dotenv-rails'
 
 gem 'gon'
+
+group :production do
+  gem 'rails_12factor'
+end
