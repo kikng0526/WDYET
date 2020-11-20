@@ -1,5 +1,3 @@
-
-
 window.initMap = function() {
   const key = gon.api_key
   
@@ -155,7 +153,7 @@ window.initMap = function() {
                   console.log(json.rest[i]);
                   var checkImg = json.rest[i].image_url.shop_image1;
                   if(checkImg === ""){
-                    json.rest[i].image_url.shop_image1 ="/assets/noimage.jpg";
+                    json.rest[i].image_url.shop_image1 ="http://design-ec.com/d/e_others_50/l_e_others_500.png";
                   }
                   var checkLunch = json.rest[i].lunch;
                   if(checkLunch === ""){
