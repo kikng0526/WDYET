@@ -9,7 +9,7 @@ body {
 
 
 .load {
-  margin-top: 100px;
+  margin-top: 160px;
 }
 
 
@@ -72,8 +72,8 @@ tr {
 }
 
 img {
-  width: 80px;
-  height: 130px;
+  width: 100px;
+  height: 150px;
 }
 
 a {
@@ -92,16 +92,28 @@ td:hover {
   h1 {
     font-size:150%;
   }
+
+  h3 {
+    font-size: 70%;
+  }
+
+  .char {
+    font-size: medium;
+  }
+
   #map {
     width:auto;
     height:350px;
   }
+
   table {
     font-size:80%;
   }
+  
   table tr td .image {
     width:80px;
   }
+
 }
 
 .header-1 {

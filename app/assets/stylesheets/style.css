@@ -7,7 +7,7 @@ body {
 }
 
 .load {
-  margin-top: 100px;
+  margin-top: 160px;
 }
 
 #map {
@@ -89,16 +89,26 @@ td:hover {
   h1 {
     font-size: 150%;
   }
+
+
+
+  .char {
+    font-size: medium;
+  }
+
   #map {
     width: auto;
     height: 350px;
   }
+
   table {
     font-size: 80%;
   }
+
   table tr td .image {
     width: 80px;
   }
+
 }
 
 .header-1 {
@@ -120,9 +130,9 @@ td:hover {
 
 .logo img {
   display: inline-block;
-  height: 60px;
-  width: 200px;
-  margin: 10px 0;
+  height: 130px;
+  width: 300px;
+  margin: 5px 0;
 }
 
 .button1 {
