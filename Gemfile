@@ -66,3 +66,5 @@ group :production do
 end
 
 gem 'gmaps4rails'
+
+ gem "aws-sdk-s3", require: false
