@@ -178,3 +178,4 @@ window.initMap = function() {
     alert("この端末では位置情報が取得できません");
   }
 }
+

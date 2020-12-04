@@ -6,3 +6,9 @@ setTimeout(add, 1500);
 
 
 
+
+
+
+document.getElementById('~~~').onclick = function (){
+
+};
